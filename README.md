@@ -2,6 +2,7 @@
 A boilerplate setup for selenium scripts using chrome 121.x.x.x and webdriver 121.x.x.x
 
 What's the Point?:
+
 I spent like two whole days figuring out how to set up selenium with a chrome webdriver for some really basic browser automation.
 
 Apparently this area of coding is going through some major changes, because in the last 4 months there's been a release of a major toolkit that automatically finds and installs a webdriver, in response to a new release/policy (as of the past year) from google of allowing developers to pin their google chrome version at all.
