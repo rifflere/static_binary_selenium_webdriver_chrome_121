@@ -11,7 +11,7 @@ A new opensource library and new company policy change both in the past year see
 
 If not pointless, it's the tinned fish of SDET for webapps; at least that's the dream.
 
-#Setup:
+# Setup:
 1) install and open PyCharm: https://www.jetbrains.com/pycharm/
 2) clone as a new project
 3) in that project make a /binaries folder
