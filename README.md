@@ -5,7 +5,7 @@ A boilerplate setup for selenium scripts using chrome 121.x.x.x and webdriver 12
 # What's the Point?:
 I spent like two whole days figuring out how to set up selenium with a chrome webdriver for some really basic browser automation.
 
-Apparently this area of expertise is growing, because in the last 4 months there's been a release of a major toolkit that automatically finds and installs a webdriver, in response to a new release/policy (as of the past year) from google that allowied developers to pin their google chrome version at all.
+Apparently this area of expertise is growing, because in the last 4 months there's been a release of a major toolkit that automatically finds and installs a webdriver, in response to a new release/policy (as of the past year) from google that allowed developers to pin their google chrome version at all.
 
 A new opensource library and new company policy change both in the past year seems pretty 'breaking-changes' to me, so I'm hoping to preserve the two days of my time by making a boilerplate repo that can use the webdriver with a venv and binaries both contained in the same repo.--This is as opposed to the opensource library's approach of always installing new webdrivers, and probably pointless.
 
