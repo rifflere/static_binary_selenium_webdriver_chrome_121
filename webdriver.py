@@ -11,12 +11,12 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 # https://github.com/orgs/community/discussions/44279
 def verify_title():
     # Specify 'options' as details for the Chrome Browser executable
-    chrome_browser_binary_path = "binaries/Google Chrome for Testing 121.app/Contents/MacOS/Google Chrome for Testing"
+    chrome_browser_binary_path = "binaries\chrome-win64\chrome-win64\chrome.exe"
     chrome_options = webdriver.ChromeOptions()
     chrome_options.binary_location = chrome_browser_binary_path
 
     # Specify 'service' as details for the ChromeDriver executable
-    chrome_driver_path = "binaries/chromedriver-mac-x64/chromedriver"
+    chrome_driver_path = "binaries\chromedriver-win64\chromedriver-win64\chromedriver.exe"
     chrome_service = ChromeService(chrome_driver_path) # https://github.com/orgs/community/discussions/44279
 
     # Use [chrome_options, chrome_service] in the webdriver constructor
@@ -28,7 +28,7 @@ def verify_title():
 
     # Navigate to the website
     driver.get("https://sdetunicorns.com")
-    # Get the title of the page
+    # Get the title of the page 
     title = driver.title
     # Verify the title
     expected_title = "Master Software Testing and Automation | SDET Unicorns"
